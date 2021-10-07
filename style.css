@@ -1,0 +1,239 @@
+#nav
+{
+    overflow: hidden;
+    background-color: hsla(89, 43%, 51%, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#spa
+{
+    float: left;
+    padding-top: 5px;
+    padding-bottom:0px
+}
+.active
+{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Pangolin', cursive;
+}
+.active:hover
+{
+    background-color: #111;
+    color: white;
+}
+.img2
+{
+    float:left;
+    margin-right: 16px;
+    margin-top: 0px;
+}
+.ar
+{
+    margin-top: 70px;
+    margin-left: 20px;
+    font-family: 'Pangolin', cursive;
+    margin-bottom: 70px;
+    font-size: 15px;
+}
+.footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #84ca69;
+    color: white;
+    text-align: center;
+}
+
+.about
+{
+    width:1000px;
+    background-color: rgba(255, 99, 71, 0.5);
+    height: 400px;
+    margin-left: 250px;
+    color:black;
+    border-radius: 20px;
+    margin-top: 50px
+}
+.img3
+{
+    float:right;
+    margin-top: 0px;
+    margin-right: 20px;
+}
+#cov
+{
+    margin-top: 70px;
+    margin-left: 20px;
+    font-family: 'Pangolin', cursive;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.ai
+{
+    margin-top: 0px;
+    padding-top: 35px;
+    margin-left: 20px;
+    font-family: 'Pangolin', cursive;
+    margin-bottom: 70px;
+    font-size: 17px;
+}
+#h1
+{
+    font-size:40px;
+    color: yellow;
+}
+
+
+.main
+{
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,0.5777661406359419) 17%, rgba(230,148,233,1) 100%);
+}
+
+.contact{
+position: relative;
+min-height: 100vh;
+padding: 50px 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.contact .data {
+  max-width: 800px;
+  text-align: center;
+}
+
+.contact .data h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color:orangered;
+}
+
+.contact .data p {
+  font-weight: 300;
+  color:black;
+}
+.details {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.details .info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.details .info .box{
+  position:relative;
+  padding:20px 0;
+  display:flex;
+}
+
+.details .info .box .icon{
+  min-width: 50px;
+  height:50px;
+  background: #fc9d03;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+.details .info .box .text{
+  display: flex;
+  margin-Left: 20px;
+  font-size: 16px;
+  color:black;
+  flex-direction: column;
+  font-weight: 300;
+}
+.details.info.box.text h3{
+
+  color: #00bcd4;
+  font-weight: 500;
+  }
+.contactForm{
+  width: 40%;
+  padding: 40px;
+  background: #fff;
+}
+.contactForm h2{
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+}
+.contactForm .inputbox{
+  position:relative;
+  margin-top: 10px;
+}
+.contactForm .inputbox input,
+.contactForm .inputbox textarea{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom:2px solid #333;
+  outline:none;
+  resize:none;
+  }
+.contactForm .inputbox span{
+  position:absolute;
+  Left:0;
+  padding: 5px 0;
+ font-size:16px;
+ margin: 10px 0;
+ pointer-events:none;
+ transition:0.5s;
+ color:#666;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span
+
+{
+  color: #91e63;
+  font-size: 12px;
+  transform:translateY(-20px);
+}
+.contactForm .inputbox input[type="submit"]{
+  width: 100px;
+  background: darkblue;
+  color: #fff;
+  border:none;
+  cursor:pointer;
+  padding:10px;
+  font-size:18px;
+}
+
+@media(max-width:991px){
+  .contact{
+    padding:50px;
+  }
+  .details{
+    flex-direction:column;
+  }
+  .details .info{
+    margin-bottom: 40px;
+  }
+  .details .info{
+    width:100%;
+  }}
